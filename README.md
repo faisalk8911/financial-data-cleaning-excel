@@ -101,7 +101,19 @@ Financial-Data-Cleaning-Project/
 ```
 
 ---
+## Screenshots
 
+### Raw Dataset
+
+![Raw Data](Screenshots/Raw_Data.png)
+
+### Cleaned Dataset
+
+![Cleaned Data](Screenshots/Cleaned_Data.png)
+
+### Summary
+
+![Summary](Screenshots/Summary.png)
 ## 🚀 Business Impact
 
 The cleaned dataset is accurate, consistent, and ready for analysis, enabling faster reporting, improved dashboard performance, and better business decision-making.
