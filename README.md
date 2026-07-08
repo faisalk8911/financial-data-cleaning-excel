@@ -2,20 +2,20 @@
 
 # 📊 Financial Data Cleaning & Transformation
 
-### End-to-End Data Cleaning Project Built with Microsoft Excel
+### End-to-End Data Cleaning Project Using Microsoft Excel
 
-Transforming **25,500+ raw financial records** into a clean, structured, and analysis-ready dataset using Microsoft Excel data cleaning and transformation techniques.
+Transforming **25,500+ financial records** into a clean, standardized, and analysis-ready dataset using Microsoft Excel. This project demonstrates practical data cleaning, validation, and transformation techniques commonly used in real-world business analytics.
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Data Cleaning](https://img.shields.io/badge/Data-Cleaning-red?style=for-the-badge)
 ![Data Preparation](https://img.shields.io/badge/Data-Preparation-blue?style=for-the-badge)
-![Portfolio](https://img.shields.io/badge/Portfolio-Project-success?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-success?style=for-the-badge)
 
 </div>
 
 ---
 
-# 📸 Project Preview
+# 📸 Project Overview
 
 <p align="center">
 <img src="Screenshots/Summary.png" width="100%">
@@ -23,23 +23,21 @@ Transforming **25,500+ raw financial records** into a clean, structured, and ana
 
 ---
 
-# 📖 Project Overview
+# 📖 Executive Summary
 
-Raw business data often contains inconsistencies, missing values, duplicate records, and formatting issues that reduce the quality of analysis and reporting.
+High-quality data is essential for reliable reporting and business decision-making. However, real-world datasets often contain duplicate records, missing values, inconsistent formatting, and invalid information that reduce analytical accuracy.
 
-This project demonstrates a complete **Data Cleaning and Transformation workflow** using **Microsoft Excel**, where a messy financial dataset was transformed into a clean, standardized, and analysis-ready dataset suitable for dashboards, SQL databases, Power BI, and business reporting.
+This project demonstrates a complete **Data Cleaning and Transformation** workflow using **Microsoft Excel**. A raw financial dataset containing over **25,500 records** was transformed into a clean, structured, and analysis-ready dataset suitable for dashboards, SQL databases, Power BI, and business reporting.
 
-The project follows industry-standard data preparation practices commonly performed by Data Analysts and Data Engineers before data visualization or modeling.
+The project follows industry-standard data preparation practices commonly performed by Data Analysts and Data Engineers.
 
 ---
 
 # 🎯 Business Problem
 
-Organizations rely on accurate and reliable data for decision-making.
+The original dataset contained several common data quality issues that prevented reliable analysis:
 
-However, the raw financial dataset contained several common real-world data quality issues that prevented effective analysis:
-
-- Duplicate records
+- Duplicate customer records
 - Missing client information
 - Invalid email addresses
 - Missing phone numbers
@@ -47,25 +45,24 @@ However, the raw financial dataset contained several common real-world data qual
 - Transaction amounts stored as text
 - Inconsistent bank names
 - Currency inconsistencies
-- Blank and incomplete records
+- Blank records
 - Inconsistent text formatting
 
-Without cleaning and standardization, the dataset could not be used effectively for reporting or analytics.
+Without proper cleaning, these issues reduce reporting accuracy and increase the risk of incorrect business decisions.
 
 ---
 
 # 💡 Project Objectives
 
-The objectives of this project were to:
+This project was designed to:
 
 - Improve overall data quality
 - Remove duplicate records
-- Standardize financial data
-- Handle missing values
-- Validate customer information
-- Prepare data for dashboards and reporting
-- Create an analysis-ready dataset
-- Demonstrate practical Excel data cleaning techniques
+- Standardize formatting and values
+- Handle missing information
+- Validate customer data
+- Prepare the dataset for reporting and analytics
+- Build a reliable foundation for dashboards and Business Intelligence
 
 ---
 
@@ -84,10 +81,7 @@ Duplicate Removal
 Missing Value Handling
           │
           ▼
-Text Standardization
-          │
-          ▼
-Date Formatting
+Data Standardization
           │
           ▼
 Data Validation
@@ -105,21 +99,35 @@ Analysis-Ready Dataset
 
 The following Excel techniques were applied throughout the project:
 
+### Data Cleaning
+
 - Remove Duplicates
+- Find & Replace
+- Text-to-Columns
+- Data Validation
+
+### Text Functions
+
 - TRIM
 - CLEAN
 - PROPER
 - UPPER
 - LOWER
 - IFERROR
-- Text-to-Columns
-- Find & Replace
-- Data Validation
+
+### Formatting
+
 - Number Formatting
-- Date Standardization
-- Missing Value Handling
-- Email Validation
-- Phone Number Standardization
+- Date Formatting
+- Currency Formatting
+- Cell Formatting
+
+### Data Preparation
+
+- Excel Tables
+- Sorting
+- Filtering
+- Quality Checks
 
 ---
 
@@ -131,7 +139,7 @@ The following Excel techniques were applied throughout the project:
 <img src="Screenshots/Raw_Data.png" width="100%">
 </p>
 
-The original dataset contained duplicate records, inconsistent formatting, missing values, and invalid entries.
+The original dataset contained duplicate records, missing values, inconsistent formatting, and invalid information.
 
 ---
 
@@ -141,7 +149,7 @@ The original dataset contained duplicate records, inconsistent formatting, missi
 <img src="Screenshots/Cleaned_Data.png" width="100%">
 </p>
 
-The cleaned dataset is standardized, validated, and ready for downstream analytics.
+After cleaning, the dataset became standardized, validated, and ready for downstream analytics.
 
 ---
 
@@ -151,7 +159,7 @@ The cleaned dataset is standardized, validated, and ready for downstream analyti
 <img src="Screenshots/Summary.png" width="100%">
 </p>
 
-Summary statistics highlight the improvements achieved during the data cleaning process.
+The summary provides an overview of the improvements made during the data cleaning process.
 
 ---
 
@@ -161,26 +169,26 @@ Summary statistics highlight the improvements achieved during the data cleaning 
 |---------|--------|
 | Original Records | 25,500 |
 | Duplicate Records Removed | 1,838 |
-| Missing Values Handled | ✔ |
-| Invalid Emails Corrected | ✔ |
-| Date Formats Standardized | ✔ |
-| Bank Names Standardized | ✔ |
-| Currency Values Standardized | ✔ |
+| Duplicate-Free Dataset | ✅ |
+| Missing Values Handled | ✅ |
+| Invalid Emails Corrected | ✅ |
+| Date Formats Standardized | ✅ |
+| Bank Names Standardized | ✅ |
+| Currency Values Standardized | ✅ |
 | Final Dataset | Analysis Ready |
 
 ---
 
 # 💼 Business Impact
 
-The cleaned dataset provides several business benefits:
+The cleaned dataset delivers measurable business value by:
 
-- Improved data quality
-- Faster reporting
-- Reliable dashboards
-- Better decision-making
-- Increased consistency
-- Reduced manual effort
-- Higher confidence in business analytics
+- Improving reporting accuracy
+- Increasing data consistency
+- Reducing manual data preparation
+- Supporting reliable business decisions
+- Enabling faster dashboard development
+- Preparing data for SQL, Power BI, and future analytics projects
 
 ---
 
@@ -216,9 +224,9 @@ The cleaned dataset provides several business benefits:
 
 | Technology | Purpose |
 |------------|----------|
-| Microsoft Excel | Data Cleaning |
+| Microsoft Excel | Data Cleaning & Transformation |
 | Excel Tables | Structured Data |
-| Text Functions | Standardization |
+| Text Functions | Data Standardization |
 | Data Validation | Quality Control |
 | Conditional Formatting | Error Detection |
 | Find & Replace | Data Correction |
@@ -232,7 +240,7 @@ The cleaned dataset provides several business benefits:
 | Industry | Banking |
 | Dataset Type | Financial |
 | Original Records | 25,500 |
-| Duplicate Records | 1,838 |
+| Duplicate Records Removed | 1,838 |
 | Final Dataset | Clean & Analysis Ready |
 
 ---
@@ -244,31 +252,33 @@ Financial-Data-Cleaning-Excel/
 │
 ├── README.md
 ├── LICENSE
-├── .gitignore
 ├── Raw_Dataset.xlsx
 ├── Cleaned_Dataset.xlsx
 │
-└── Screenshots
-    ├── Raw_Data.png
-    ├── Cleaned_Data.png
-    └── Summary.png
+├── Screenshots/
+│   ├── Raw_Data.png
+│   ├── Cleaned_Data.png
+│   └── Summary.png
+│
+└── Documentation/
+    └── Project_Documentation_Financial_Data_Cleaning.pdf
 ```
 
 ---
 
 # 🚀 How to Use
 
-1. Download the repository.
-2. Open **Raw_Dataset.xlsx** to review the original data.
-3. Open **Cleaned_Dataset.xlsx** to examine the transformed dataset.
-4. Compare the raw and cleaned versions.
-5. Review the screenshots to understand the data cleaning workflow.
+1. Clone or download this repository.
+2. Open **Raw_Dataset.xlsx** to review the original dataset.
+3. Open **Cleaned_Dataset.xlsx** to compare the cleaned version.
+4. Review the screenshots to understand the transformation process.
+5. Read the project documentation for a detailed explanation of the methodology and business impact.
 
 ---
 
 # 📚 Learning Outcomes
 
-This project strengthened my practical knowledge of:
+This project strengthened my practical understanding of:
 
 - Data Cleaning
 - Data Transformation
@@ -285,11 +295,33 @@ This project strengthened my practical knowledge of:
 Future versions of this project may include:
 
 - Power Query automation
-- SQL data validation
+- SQL-based validation
+- PostgreSQL database integration
 - Python data cleaning scripts
-- PostgreSQL integration
-- Automated ETL pipeline
-- Power BI dashboard development
+- ETL pipeline development
+- Power BI dashboard implementation
+
+---
+
+# 📄 Documentation
+
+A detailed project report is included in:
+
+```text
+Documentation/
+└── Project_Documentation_Financial_Data_Cleaning.pdf
+```
+
+The report covers:
+
+- Executive Summary
+- Business Problem
+- Project Objectives
+- Data Cleaning Methodology
+- Excel Techniques Used
+- Results & Business Impact
+- Skills Demonstrated
+- Future Enhancements
 
 ---
 
@@ -299,16 +331,7 @@ Future versions of this project may include:
 
 **Aspiring Data Engineer | Data Analyst | Business Intelligence Enthusiast**
 
-I am building a portfolio focused on solving real-world business problems through data.
-
-### Current Technology Stack
-
-- Microsoft Excel
-- SQL
-- PostgreSQL
-- Python
-- Power BI
-- Data Engineering
+I am building a portfolio focused on solving real-world business problems through data using Excel, SQL, PostgreSQL, Python, and Power BI.
 
 ---
 
@@ -321,7 +344,7 @@ I am building a portfolio focused on solving real-world business problems throug
 
 # ⭐ Support
 
-If you found this project useful or interesting, consider giving the repository a **Star**.
+If you found this project helpful or interesting, please consider giving it a **Star**.
 
 Your support motivates me to continue building practical Data Analytics and Data Engineering projects.
 
