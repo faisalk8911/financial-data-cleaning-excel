@@ -337,7 +337,7 @@ I am building a portfolio focused on solving real-world business problems throug
 
 # 🤝 Connect with Me
 
-- **GitHub:** https://github.com/yourusername
+- **GitHub:** https://github.com/faisalk8911
 - **LinkedIn:** https://linkedin.com/in/yourprofile
 
 ---
