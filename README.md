@@ -4,7 +4,7 @@
 
 ### End-to-End Data Cleaning Project Using Microsoft Excel
 
-Transforming financial records** into a clean, standardized, and analysis-ready dataset using Microsoft Excel. This project demonstrates practical data cleaning, validation, and transformation techniques commonly used in real-world business analytics.
+Transforming **financial records** into a clean, standardized, and analysis-ready dataset using Microsoft Excel. This project demonstrates practical data cleaning, validation, and transformation techniques commonly used in real-world business analytics.
 
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Data Cleaning](https://img.shields.io/badge/Data-Cleaning-red?style=for-the-badge)
